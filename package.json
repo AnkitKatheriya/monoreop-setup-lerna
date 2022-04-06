@@ -8,7 +8,8 @@
     "bootstrap:hoist": "npx lerna bootstrap --hoist" ,
     "clean": "npx lerna clean -y",
     "new-version": "npx lerna version --conventional-commits --yes",
-    "diff": "npx lerna diff"
+    "diff": "npx lerna diff",
+    "build": "npx lerna run build --since"
   },
   "keywords": [],
   "author": "",
