@@ -6,7 +6,9 @@
   "scripts": {
     "bootstrap": "npx lerna bootstrap",
     "bootstrap:hoist": "npx lerna bootstrap --hoist" ,
-    "clean": "npx lerna clean -y"
+    "clean": "npx lerna clean -y",
+    "new-version": "npx lerna version --conventional-commits --yes",
+    "diff": "npx lerna diff"
   },
   "keywords": [],
   "author": "",
