@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>webapp 1</h2>
+        <p>For cheking version</p>
       </header>
     </div>
   );
