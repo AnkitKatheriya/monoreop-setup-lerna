@@ -9,7 +9,8 @@
     "clean": "npx lerna clean -y",
     "new-version": "npx lerna version --conventional-commits --yes",
     "diff": "npx lerna diff",
-    "build": "npx lerna run build --since"
+    "build": "npx lerna run build --since",
+    "publish": "lerna publish"
   },
   "keywords": [],
   "author": "",
